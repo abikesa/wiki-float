@@ -1,0 +1,71 @@
+ 
+<style>
+/* Wikipedia-style infobox */
+.wiki-frame {
+    float: right;
+    width: 35%;
+    margin-left: 15px;
+    border: 1px solid #a2a9b1;
+    padding: 10px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.wiki-frame h3 {
+    background-color: #eaecf0;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #a2a9b1;
+    margin-top: 0;
+}
+
+.wiki-frame pre {
+    white-space: pre-wrap;
+    background-color: #fff;
+    padding: 8px;
+    border: 1px solid #a2a9b1;
+    font-family: monospace;
+    overflow-x: auto;
+}
+
+/* Make the frame responsive */
+@media (max-width: 768px) {
+    .wiki-frame {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+</style>
+
+<!-- Wikipedia-style Code Box -->
+<div class="wiki-frame">
+
+<h3>📚 Symbolic Systems Frame</h3>
+
+<!-- Embedded Image with Magnify Option -->
+<a href="https://upload.wikimedia.org/wikipedia/commons/6/64/Symbiotic_relationships_diagram.svg" target="_blank" title="Click to view larger">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Symbiotic_relationships_diagram.svg" alt="Symbiotic Relationships Diagram" width="100%">
+</a>
+
+<!-- Markdown-visualization hybrid: works in both ipynb + HTML export -->
+<pre>
+```{figure} https://www.ledr.com/colours/white.jpg
+---
+width: 1
+height: 1
+name: wiki/symbiosis
+---
+Consider pretext, subtext, text, context, metatext. 
+It is <b>text</b> in the mode of holy-writ that makes Faustian bargains vs. Islamic finance the ultimate bifurcation in how systems are engineered.
+```
+</pre>
+
+</div>
+ 
+
